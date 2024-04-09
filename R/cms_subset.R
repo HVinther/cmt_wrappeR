@@ -1,3 +1,4 @@
+#' Calls copernicusmarine subset from conda virtual enviroment.
 cms_subset<-function(
     serviceId,
     productId,

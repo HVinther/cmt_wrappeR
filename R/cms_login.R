@@ -1,3 +1,4 @@
+#' Calls copernicusmarine login from the conda virtual enviroment with the provided username and password.
 cms_login<-function(username,password){
   clist <- reticulate::conda_list()
   path<-clist$python[clist$name == "copernicus_data_retrieval"]

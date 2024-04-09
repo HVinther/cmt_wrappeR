@@ -1,3 +1,4 @@
+#' Creates a conda virtual enviroment and installs the toolbox inside.
 cms_init<-function(){
   if(! "copernicus_data_retrieval" %in% reticulate::conda_list()$name){
     reticulate::conda_create(envname = "copernicus_data_retrieval",
